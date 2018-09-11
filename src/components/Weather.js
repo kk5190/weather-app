@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Weather = (props) => (
+const Weather = props => (
   <div>
     { props.city && props.country && <p>Location: {props.city}, {props.country}</p> }
     { props.temperature && <p>Temperature: {props.temperature}</p> }
